@@ -1,16 +1,18 @@
-# mood
+# Detection of Anxiety and Depression
 
-A new Flutter project.
+A Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+I used Google's <a href="https://teachablemachine.withgoogle.com/">Teachable Machine</a> to train the model.
+The model was saved as Tflite(TensorFlow Lite).
+The model was then deployed using Flutter for the frontend as both a web and android/IOS application.
 
-A few resources to get you started if this is your first Flutter project:
+### Teachable Machine
+What is Teachable Machine? Teachable Machine is a web-based tool that makes creating machine learning models fast, easy, and accessible to everyone.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### TensorFlow Lite
+TensorFlow Lite is Google's machine learning framework to deploy machine learning models on multiple devices and surfaces such as mobile (iOS and Android), desktops and other edge devices.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
