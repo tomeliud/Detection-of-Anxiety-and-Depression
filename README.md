@@ -1,4 +1,4 @@
-# Detection of Anxiety and Depression
+## Detection of Anxiety and Depression
 
 A Flutter project.
 
@@ -6,7 +6,7 @@ A Flutter project.
 
 I used Google's <a href="https://teachablemachine.withgoogle.com/">Teachable Machine</a> to train the model.
 The model was saved as Tflite(TensorFlow Lite).
-The model was then deployed using Flutter for the frontend as both a web and android/IOS application.
+The model was then deployed using Flask Server and CSS & HTML for the frontend on the web. The android application runs on Flutter.
 
 ### Teachable Machine
 What is Teachable Machine? Teachable Machine is a web-based tool that makes creating machine learning models fast, easy, and accessible to everyone.
